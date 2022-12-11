@@ -1,0 +1,11 @@
+from the espresso doc
+
+Run the following command to obtain the docker-compose file that we will use:   
+curl https://www.espressosys.com/cape/docker-compose.yaml --output docker-compose.yaml
+4. With docker running, run docker-compose in your terminal, in the same directory where the docker-compose.yaml file was downloaded.  To avoid setup issues, please run docker-compose, not docker compose.
+If you have interacted with the CAPE UI before, first you should run the following command. CAUTION: this command will delete all your local containers!
+docker-compose down -v
+Run the following commands:
+docker-compose pull
+docker-compose up
+You should see the following screen in your terminal when the wallet is running after you run docker-compose up.
