@@ -9,3 +9,5 @@ Run the following commands:
 docker-compose pull
 docker-compose up
 You should see the following screen in your terminal when the wallet is running after you run docker-compose up.
+
+This is good test.
